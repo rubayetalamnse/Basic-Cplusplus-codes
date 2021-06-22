@@ -1,0 +1,23 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int i, num,sum=0;
+    cout<< "enter the last number"<<endl;
+    cin>>num;
+     cout<<"all the numbers are "<<endl;
+
+    for(i=1;i<=num;i++)
+    {
+
+        cout<<i<<"^"<<"2"<<endl;
+        sum = sum+pow(i,2);
+       //you can use (i*i), so that you won't need cmath header file
+
+    }
+    cout<<"the sum of all number is \n";
+     cout<<sum;
+     return 0;
+}
+

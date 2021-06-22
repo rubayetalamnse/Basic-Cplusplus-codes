@@ -1,0 +1,4 @@
+My name is rubayet.
+I am learning C++.
+it's last program to read a file.
+hope it runs!!
